@@ -25,6 +25,10 @@ public class AItemInList extends GameObject {
          itemstored=new GameObject(x,y,this.context,id,0,zoom);
     }
 
+    public GameObject getItemstored(){
+        return itemstored;
+    }
+
     @Override
     public void update() {
 
